@@ -1,0 +1,39 @@
+{
+  "name": "account",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "account_number": {
+      "type": "string",
+      "required": true
+    },
+    "account_balance": {
+      "type": "string",
+      "required": true
+    },
+    "type": {
+      "type": "number",
+      "required": true,
+      "default": 0
+    },
+    "customer_username": {
+      "type": "string",
+      "required": true
+    },
+    "open_date": {
+      "type": "date",
+      "required": true
+    },
+    "close_date": {
+      "type": "date",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

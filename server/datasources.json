@@ -1,0 +1,16 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "MYSQLBaking": {
+    "host": "ebanking.cj3ogc5subyk.ap-southeast-1.rds.amazonaws.com",
+    "port": 3306,
+    "url": "",
+    "database": "ebanking",
+    "password": "20031998",
+    "name": "MYSQLBaking",
+    "user": "admin",
+    "connector": "mysql"
+  }
+}
